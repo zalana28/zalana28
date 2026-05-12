@@ -1,21 +1,54 @@
+# Hi, I'm zalana 👋
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/zacxkzi) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/zacxkzi) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/zacxkzi) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@zacxkzi) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:zacxdoor@gmail.com) 
+I'm a self-taught Web3 developer from Indonesia. I have been active in crypto since 2018 through airdrops, testnets, retroactive campaigns, and Web3 ecosystem research, and I am now turning that hands-on ecosystem experience into practical blockchain development skills.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=plastic&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=plastic&logo=haskell&logoColor=white) ![Elm](https://img.shields.io/badge/Elm-60B5CC?style=plastic&logo=elm&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%234B275F.svg?style=plastic&logo=elixir&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=plastic&logo=graphql&logoColor=white) ![Objective-C](https://img.shields.io/badge/OBJECTIVE--C-%233A95E3.svg?style=plastic&logo=apple&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=plastic&logo=solidity&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=plastic&logo=rescript&logoColor=e34c4c) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=plastic&logo=r&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=plastic&logo=Cloudflare&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=plastic&logo=microsoftazure&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Alibaba Cloud](https://img.shields.io/badge/AlibabaCloud-%23FF6701.svg?style=plastic&logo=alibabacloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=plastic&logo=firebase&logoColor=ffcd34) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=zalana28&theme=dracula&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=zalana28&theme=dracula&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=zalana28&theme=dracula&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+I enjoy learning in public, building small projects, and improving step by step with a focus on clean code, useful documentation, and beginner-friendly Web3 experiences.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## Current Focus
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=zalana28&limit=5&theme=dracula&combine_all_yearly_contributions=true)
+- Building frontend applications with **React** and **TypeScript**
+- Learning smart contract development with **Solidity** on **EVM** chains
+- Exploring wallet connections and on-chain interactions with **Wagmi** and **viem**
+- Studying Web3 product flows, testnets, user onboarding, and ecosystem research
+- Improving my Git, GitHub, and technical writing habits through consistent practice
+
+## Featured Projects
+
+I am currently building and refining beginner-friendly Web3 projects. More public repositories will be added as I improve them.
+
+- **Web3 Wallet Connection Experiments** — Practice projects for connecting wallets, reading account data, and interacting with EVM networks.
+- **Solidity Learning Contracts** — Small smart contract exercises focused on fundamentals, security awareness, and readable code.
+- **Crypto Ecosystem Research Notes** — Notes and summaries from testnets, airdrops, retroactive campaigns, and ecosystem research.
+
+> For the latest work, please check my pinned repositories and recent GitHub activity.
+
+## Tech Stack
+
+**Currently focused on:**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![Wagmi](https://img.shields.io/badge/Wagmi-000000?style=flat&logo=ethereum&logoColor=white)
+![viem](https://img.shields.io/badge/viem-000000?style=flat&logo=ethereum&logoColor=white)
+![EVM](https://img.shields.io/badge/EVM-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+
+**Also practicing:** HTML, CSS, JavaScript, Git, GitHub, and basic smart contract testing workflows.
+
+## Learning Journey
+
+My background started from participating in crypto communities and Web3 ecosystems rather than a traditional computer science path. Since 2018, I have learned by exploring testnets, trying new protocols, following project documentation, and researching how blockchain products are built.
+
+Today, my goal is to become a reliable Web3 developer who can contribute to frontend dApps, smart contract integrations, and user-friendly blockchain tools.
+
+## Contact Links
+
+- GitHub: [github.com/zalana28](https://github.com/zalana28)
+- X / Twitter: [x.com/zacxkzi](https://x.com/zacxkzi)
+- Instagram: [instagram.com/zacxkzi](https://instagram.com/zacxkzi)
+- YouTube: [youtube.com/@zacxkzi](https://youtube.com/@zacxkzi)
+- Email: [zacxdoor@gmail.com](mailto:zacxdoor@gmail.com)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=zalana28&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+Thanks for visiting my profile. I'm still learning, building, and improving every day.
