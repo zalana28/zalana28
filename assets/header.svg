@@ -1,161 +1,140 @@
 <svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        @keyframes glow {
-          0%, 100% {
-            text-shadow: 0 0 10px rgba(56, 189, 248, 0.8), 0 0 20px rgba(56, 189, 248, 0.4), 0 0 40px rgba(168, 85, 247, 0.3);
-            filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.6));
-          }
-          50% {
-            text-shadow: 0 0 20px rgba(56, 189, 248, 1), 0 0 35px rgba(168, 85, 247, 0.7), 0 0 60px rgba(56, 189, 248, 0.5);
-            filter: drop-shadow(0 0 25px rgba(168, 85, 247, 0.8));
-          }
-        }
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161226" />
+    </linearGradient>
 
-        @keyframes scanline {
-          0% { transform: translateY(-100%); }
-          100% { transform: translateY(1000%); }
-        }
+    <!-- Glowing Text Gradient -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
 
-        @keyframes pulse-border {
-          0%, 100% { border-color: rgba(56, 189, 248, 0.4); box-shadow: 0 0 15px rgba(56, 189, 248, 0.15) inset; }
-          50% { border-color: rgba(168, 85, 247, 0.7); box-shadow: 0 0 25px rgba(168, 85, 247, 0.3) inset; }
-        }
+    <!-- Scan Beam Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
 
-        @keyframes float-grid {
-          0% { background-position: 0 0; }
-          100% { background-position: 40px 40px; }
-        }
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1" />
+    </pattern>
 
-        .cyber-container {
-          position: relative;
-          width: 796px;
-          height: 196px;
-          background: linear-gradient(135deg, #090d16 0%, #0d1117 50%, #161226 100%);
-          border-radius: 16px;
-          border: 1.5px solid rgba(56, 189, 248, 0.4);
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
-          overflow: hidden;
-          box-sizing: border-box;
-          animation: pulse-border 4s ease-in-out infinite;
-        }
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur1" />
+      <feGaussianBlur stdDeviation="6" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
 
-        .cyber-grid {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-image: 
-            linear-gradient(to right, rgba(56, 189, 248, 0.05) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
-          background-size: 24px 24px;
-          animation: float-grid 20s linear infinite;
-          opacity: 0.7;
-          pointer-events: none;
-        }
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.6)); }
+        50% { opacity: 1; filter: drop-shadow(0 0 16px rgba(168, 85, 247, 0.9)); }
+      }
 
-        .scan-beam {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 20px;
-          background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.15) 50%, transparent 100%);
-          animation: scanline 8s linear infinite;
-          pointer-events: none;
-        }
+      @keyframes scanMotion {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(200px); }
+      }
 
-        .tag-row {
-          display: flex;
-          gap: 10px;
-          margin-bottom: 10px;
-          z-index: 2;
-        }
+      @keyframes borderPulse {
+        0%, 100% { stroke: #38bdf8; stroke-opacity: 0.4; }
+        50% { stroke: #c084fc; stroke-opacity: 0.8; }
+      }
 
-        .cyber-tag {
-          font-size: 11px;
-          font-weight: 700;
-          letter-spacing: 1.5px;
-          text-transform: uppercase;
-          color: #38bdf8;
-          background: rgba(14, 165, 233, 0.12);
-          border: 1px solid rgba(56, 189, 248, 0.35);
-          padding: 3px 12px;
-          border-radius: 20px;
-        }
+      .main-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        letter-spacing: 6px;
+        fill: #ffffff;
+        animation: pulseGlow 3s ease-in-out infinite;
+      }
 
-        .cyber-title {
-          font-size: 38px;
-          font-weight: 900;
-          letter-spacing: 5px;
-          color: #ffffff;
-          margin: 0;
-          z-index: 2;
-          animation: glow 3s ease-in-out infinite;
-        }
+      .sub-title {
+        font-family: 'SF Mono', 'Fira Code', Consolas, Menlo, monospace;
+        font-weight: 600;
+        font-size: 13.5px;
+        letter-spacing: 3px;
+        fill: #94a3b8;
+      }
 
-        .cyber-subtitle {
-          font-size: 13.5px;
-          font-weight: 500;
-          letter-spacing: 2.5px;
-          color: #94a3b8;
-          margin-top: 8px;
-          z-index: 2;
-          text-transform: uppercase;
-        }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+      }
 
-        .highlight {
-          color: #38bdf8;
-          font-weight: 700;
-        }
+      .scan-beam {
+        animation: scanMotion 5s linear infinite;
+      }
 
-        .highlight-purple {
-          color: #c084fc;
-          font-weight: 700;
-        }
+      .card-border {
+        animation: borderPulse 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
 
-        .corner-decor {
-          position: absolute;
-          width: 8px;
-          height: 8px;
-          border: 2px solid #38bdf8;
-        }
-        .top-left { top: 6px; left: 6px; border-right: none; border-bottom: none; }
-        .top-right { top: 6px; right: 6px; border-left: none; border-bottom: none; }
-        .bottom-left { bottom: 6px; left: 6px; border-right: none; border-top: none; }
-        .bottom-right { bottom: 6px; right: 6px; border-left: none; border-top: none; }
-      </style>
+  <!-- Container Box -->
+  <rect x="2" y="2" width="796" height="196" rx="16" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="796" height="196" rx="16" fill="url(#cyberGrid)" />
 
-      <div class="cyber-container">
-        <div class="cyber-grid"></div>
-        <div class="scan-beam"></div>
+  <!-- Scanning Laser Line -->
+  <g class="scan-beam">
+    <rect x="2" y="0" width="796" height="20" fill="url(#scanGrad)" />
+  </g>
 
-        <div class="corner-decor top-left"></div>
-        <div class="corner-decor top-right"></div>
-        <div class="corner-decor bottom-left"></div>
-        <div class="corner-decor bottom-right"></div>
+  <!-- Animated Border -->
+  <rect class="card-border" x="2" y="2" width="796" height="196" rx="16" fill="none" stroke="#38bdf8" stroke-width="1.5" />
 
-        <div class="tag-row">
-          <span class="cyber-tag">EVM Architect</span>
-          <span class="cyber-tag" style="color: #c084fc; border-color: rgba(192, 132, 252, 0.35); background: rgba(192, 132, 252, 0.12);">Web3 Native</span>
-          <span class="cyber-tag">Full-Stack</span>
-        </div>
+  <!-- Corner Tech Accents -->
+  <path d="M 12 24 L 12 12 L 24 12" stroke="#38bdf8" stroke-width="2.5" fill="none" />
+  <path d="M 788 24 L 788 12 L 776 12" stroke="#38bdf8" stroke-width="2.5" fill="none" />
+  <path d="M 12 176 L 12 188 L 24 188" stroke="#38bdf8" stroke-width="2.5" fill="none" />
+  <path d="M 788 176 L 788 188 L 776 188" stroke="#38bdf8" stroke-width="2.5" fill="none" />
 
-        <h1 class="cyber-title">⚡ ZALANA ⚡</h1>
+  <!-- Pills / Badges -->
+  <g transform="translate(235, 30)">
+    <!-- Pill 1: EVM ARCHITECT -->
+    <rect x="0" y="0" width="105" height="22" rx="11" fill="#0ea5e9" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+    <text class="tag-text" x="52" y="15" text-anchor="middle" fill="#38bdf8">EVM ARCHITECT</text>
 
-        <p class="cyber-subtitle">
-          <span class="highlight">Smart Contracts</span> • 
-          <span class="highlight-purple">Decentralized Apps</span> • 
-          <span class="highlight">TypeScript</span> • 
-          <span>Crypto Since 2018</span>
-        </p>
-      </div>
-    </div>
-  </foreignObject>
+    <!-- Pill 2: WEB3 NATIVE -->
+    <rect x="115" y="0" width="100" height="22" rx="11" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4" />
+    <text class="tag-text" x="165" y="15" text-anchor="middle" fill="#c084fc">WEB3 NATIVE</text>
+
+    <!-- Pill 3: FULL-STACK -->
+    <rect x="225" y="0" width="95" height="22" rx="11" fill="#0ea5e9" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+    <text class="tag-text" x="272" y="15" text-anchor="middle" fill="#38bdf8">FULL-STACK</text>
+  </g>
+
+  <!-- Main Title with Glowing Lightning -->
+  <g transform="translate(400, 108)">
+    <text class="main-title" x="0" y="0" text-anchor="middle">⚡ ZALANA ⚡</text>
+  </g>
+
+  <!-- Subtitle Tagline -->
+  <g transform="translate(400, 148)">
+    <text class="sub-title" x="0" y="0" text-anchor="middle">
+      <tspan fill="#38bdf8">SMART CONTRACTS</tspan>
+      <tspan fill="#64748b"> • </tspan>
+      <tspan fill="#c084fc">DECENTRALIZED APPS</tspan>
+      <tspan fill="#64748b"> • </tspan>
+      <tspan fill="#38bdf8">TYPESCRIPT</tspan>
+      <tspan fill="#64748b"> • </tspan>
+      <tspan fill="#94a3b8">SINCE 2018</tspan>
+    </text>
+  </g>
 </svg>
