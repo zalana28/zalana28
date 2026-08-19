@@ -130,34 +130,3 @@ $ curl -s https://api.zalana.dev/contact
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution City" />
 </div>
-
----
-
-<!-- START_TICTACTOE -->
-<div align="center">
-
-### 🎮 INTERACTIVE CYBER TIC-TAC-TOE
-*🎮 Ready to play! You are ⚡ (Player), AI is 🤖*
-
-<table>
-  <tr>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|0,0&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|0,1&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|0,2&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-  </tr>
-  <tr>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|1,0&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|1,1&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|1,2&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-  </tr>
-  <tr>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|2,0&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|2,1&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-    <td align="center" width="90" height="50"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|2,2&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"><img src="https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge" alt="⬜" /></a></td>
-  </tr>
-</table>
-
-<a href="https://github.com/zalana28/zalana28/issues/new?title=game|reset&body=Just+press+%27Submit+new+issue%27+to+reset+the+board!"><img src="https://img.shields.io/badge/%F0%9F%94%84-RESET%20BOARD-f43f5e?style=for-the-badge" alt="Reset" /></a>
-
-</div>
-<!-- END_TICTACTOE -->
