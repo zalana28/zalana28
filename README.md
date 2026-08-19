@@ -80,6 +80,7 @@
 
 | Project / Repository | Focus & Highlights | Tech Stack | Quick Links |
 | :--- | :--- | :--- | :---: |
+| 🛡️ [**EVM MCP Auditor**](https://github.com/zalana28/evm-mcp-auditor) | Model Context Protocol (MCP) server for Claude - EVM smart contract static security auditing & multi-chain telemetry. | `TypeScript` `MCP` `Solidity` `EVM` | [GitHub ↗](https://github.com/zalana28/evm-mcp-auditor) |
 | ⚡ **Web3 Wallet Connection** | Eksperimen interaksi dApp, multi-wallet provider, dan pembacaan on-chain state. | `React` `TypeScript` `Wagmi` `Viem` | [View Repo ↗](https://github.com/zalana28) |
 | 📜 **Solidity Smart Contracts** | Kumpulan latihan smart contract EVM dengan penekanan pada security & readable code. | `Solidity` `EVM` `Hardhat` | [View Repo ↗](https://github.com/zalana28) |
 | 🧭 **Crypto Ecosystem Research** | Dokumentasi & riset mendalam seputar testnet, protokol DeFi, dan retroactive. | `Markdown` `Research` `Web3` | [View Repo ↗](https://github.com/zalana28) |
