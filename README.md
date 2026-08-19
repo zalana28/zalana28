@@ -123,4 +123,49 @@ $ curl -s https://api.zalana.dev/contact
 <br/><br/>
 <sub>⚡ "Decentralize everything, engineer without limits." // Built with cutting-edge HUD aesthetics.</sub>
 
+---
+
+### 🏙️ 3D ISOMETRIC CONTRIBUTION CITY
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution City" />
 </div>
+
+---
+
+### 📊 NASA-STYLE DEVELOPER TELEMETRY (METRICS)
+
+<div align="center">
+  <img src="./assets/metrics.svg" width="100%" alt="Developer Telemetry Metrics" />
+</div>
+
+---
+
+<!-- START_TICTACTOE -->
+<div align="center">
+
+### 🎮 PLAY WITH AI // INTERACTIVE TIC-TAC-TOE
+*Ready to play! You are ⚡ (Player), AI is 🤖. Click any square to make your move!*
+
+<table>
+  <tr>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|0,0&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|0,1&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|0,2&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|1,0&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|1,1&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|1,2&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|2,0&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|2,1&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+    <td align="center" width="70" height="70"><a href="https://github.com/zalana28/zalana28/issues/new?title=game|play|2,2&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"><img src="https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png" width="50" height="50" alt="Square" />⬜</a></td>
+  </tr>
+</table>
+
+[🔄 Reset Game](https://github.com/zalana28/zalana28/issues/new?title=game|reset&body=Just+press+%27Submit+new+issue%27+to+reset+the+game!)
+
+</div>
+<!-- END_TICTACTOE -->

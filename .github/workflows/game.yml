@@ -1,0 +1,40 @@
+name: Interactive Game Bot
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play_turn:
+    if: startsWith(github.event.issue.title, 'game|')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Play Move
+        run: |
+          python3 .github/scripts/play_game.py "${{ github.event.issue.title }}" README.md
+
+      - name: Commit and Push Update
+        run: |
+          git config user.name "Zalana-AI-Bot"
+          git config user.email "bot@zalana.dev"
+          git add README.md
+          git commit -m "chore(game): update interactive board [skip ci]" || exit 0
+          git push
+
+      - name: Close Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue close "$ISSUE_NUMBER" --comment "Move processed! Check the README for the updated board 🎮"
