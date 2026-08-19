@@ -1,12 +1,12 @@
 <div align="center">
 
-  <!-- 1. CYBERPUNK HUD BANNER (ANIMATED GLOW) -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,40:0f172a,70:1e1b4b,100:0369a1&height=200&section=header&text=⚡%20ZALANA%20⚡&fontSize=48&fontColor=38bdf8&animation=twinkling&fontAlignY=42&desc=%3C%20WEB3%20ENGINEER%20%2F%2F%20FULL-STACK%20%2F%2F%20CRYPTO%20NATIVE%20%3E&descAlignY=68&descSize=15" width="100%" alt="Cyber HUD Header" />
+  <!-- 1. DYNAMIC WAVING CYBER BANNER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=ZALANA%20%7C%20WEB3%20DEV&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web3%20%26%20Frontend%20Developer%20%E2%80%A2%20EVM%20%26%20Smart%20Contracts%20%E2%80%A2%20Crypto%20Native&descAlignY=62&descSize=16" width="100%" alt="Cyber Banner" />
 
   <!-- 2. ANIMATED AUDIO EQUALIZER / NOW PLAYING STATUS -->
   <p align="center">
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=22D3EE&center=true&vCenter=true&width=550&lines=%E2%96%88%E2%96%93%E2%96%92%E2%96%91+STATUS%3A+Compiling+EVM+Smart+Contracts...+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%96%88%E2%96%93%E2%96%92%E2%96%91+NOW+BUILDING%3A+Next-Gen+DeFi+%26+dApp+Architectures+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%96%88%E2%96%93%E2%96%92%E2%96%91+MODE%3A+Learning+in+Public+%E2%80%A2+Crypto+Native+Since+2018+%E2%96%91%E2%96%92%E2%96%93%E2%96%88" alt="Now Playing Status" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=1000&color=22D3EE&center=true&vCenter=true&width=560&lines=%E2%96%88%E2%96%93%E2%96%92%E2%96%91+STATUS%3A+Compiling+EVM+Smart+Contracts...+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%96%88%E2%96%93%E2%96%92%E2%96%91+NOW+BUILDING%3A+Next-Gen+DeFi+%26+dApp+Architectures+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%96%88%E2%96%93%E2%96%92%E2%96%91+MODE%3A+Learning+in+Public+%E2%80%A2+Crypto+Native+Since+2018+%E2%96%91%E2%96%92%E2%96%93%E2%96%88" alt="Now Playing Status" />
     </a>
   </p>
 
@@ -21,12 +21,12 @@
   --------------------------------------
   OS          : Web3 EVM Environment x86_64
   Host        : Decentralized Node v2026.1
-  Uptime      : Active since 2018 (6+ yrs crypto/ecosystem)
+  Uptime      : Active since 2018 (Crypto / Testnets / Ecosystem)
   Core Skills : Solidity, React, TypeScript, Wagmi, Viem, Next.js
   Shell       : zsh 5.9 (tokyo-night-cyber)
   Terminal    : iTerm2 / Alacritty
   Architecture: EVM Smart Contracts • Clean Architecture • dApps
-  Mission     : "Architecting high-frequency, secure, on-chain experiences."
+  Mission     : "Architecting high-performance, secure, on-chain experiences."
 ```
 
 ---
@@ -36,7 +36,7 @@
 <table>
   <tr>
     <th width="50%" align="center">⚡ <b>CORE ARSENAL & SKILLS</b></th>
-    <th width="50%" align="center">📊 <b>ON-CHAIN / DEV METRICS</b></th>
+    <th width="50%" align="center">📊 <b>REAL-TIME DEV METRICS</b></th>
   </tr>
   <tr>
     <td valign="top">
@@ -52,25 +52,11 @@
       <img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode,docker,postman,linux,npm&theme=dark" />
     </td>
     <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=zalana28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d111700&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" width="100%" /><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zalana28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d111700&title_color=38bdf8&text_color=94a3b8" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=zalana28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" width="100%" alt="GitHub Stats" /><br/>
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=zalana28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>
-
----
-
-### 🏆 ACHIEVEMENTS & CONTRIBUTIONS
-
-<div align="center">
-  <!-- Glowing Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=zalana28&theme=tokyonight&no-frame=true&no-bg=true&margin_w=4&row=1&column=7" width="100%" alt="Trophy Case" />
-
-  <br/>
-
-  <!-- Flame Streak Indicator -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zalana28&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" width="85%" alt="Streak Counter" />
-</div>
 
 ---
 
@@ -90,6 +76,16 @@
 
 ---
 
+### 🚀 FEATURED HIGHLIGHTS
+
+| Project / Repository | Focus & Highlights | Tech Stack | Quick Links |
+| :--- | :--- | :--- | :---: |
+| ⚡ **Web3 Wallet Connection** | Eksperimen interaksi dApp, multi-wallet provider, dan pembacaan on-chain state. | `React` `TypeScript` `Wagmi` `Viem` | [View Repo ↗](https://github.com/zalana28) |
+| 📜 **Solidity Smart Contracts** | Kumpulan latihan smart contract EVM dengan penekanan pada security & readable code. | `Solidity` `EVM` `Hardhat` | [View Repo ↗](https://github.com/zalana28) |
+| 🧭 **Crypto Ecosystem Research** | Dokumentasi & riset mendalam seputar testnet, protokol DeFi, dan retroactive. | `Markdown` `Research` `Web3` | [View Repo ↗](https://github.com/zalana28) |
+
+---
+
 ### 🛰️ TRANSMISSION & CLI CONNECT
 
 <div align="center">
@@ -105,19 +101,19 @@ $ curl -s https://api.zalana.dev/contact
 
 <p align="center">
   <a href="https://x.com/zacxkzi" target="_blank">
-    <img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" />
+    <img src="https://img.shields.io/badge/Twitter/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://youtube.com/@zacxkzi" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://instagram.com/zacxkzi" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
   </a>
   &nbsp;
   <a href="mailto:vanzaki28@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
