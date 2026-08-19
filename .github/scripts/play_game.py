@@ -5,21 +5,14 @@ import re
 BOARD_START = "<!-- START_TICTACTOE -->"
 BOARD_END = "<!-- END_TICTACTOE -->"
 
-# Cell representations
 EMPTY = " "
 USER = "X"
 AI = "O"
 
-ICONS = {
-    EMPTY: "⬜",
-    USER: "⚡", # Electric for Zalana / Player
-    AI: "🤖"    # AI
-}
-
-def render_board(board, status_msg="Your turn! Click an empty block ⚡"):
+def render_board(board, status_msg="🎮 Your turn! Click any ⬜ button to play"):
     md = f"{BOARD_START}\n"
     md += f"<div align=\"center\">\n\n"
-    md += f"### 🎮 PLAY WITH AI // TIC-TAC-TOE\n"
+    md += f"### 🎮 INTERACTIVE CYBER TIC-TAC-TOE\n"
     md += f"*{status_msg}*\n\n"
     md += "<table>\n"
     for r in range(3):
@@ -28,17 +21,17 @@ def render_board(board, status_msg="Your turn! Click an empty block ⚡"):
             val = board[r][c]
             if val == EMPTY:
                 issue_title = f"game|play|{r},{c}"
-                link = f"https://github.com/zalana28/zalana28/issues/new?title={issue_title}&body=Just+press+%27Submit+new+issue%27+to+make+your+move!"
-                cell_content = f"<a href=\"{link}\"><img src=\"https://raw.githubusercontent.com/zalana28/zalana28/main/assets/blank.png\" width=\"50\" height=\"50\" alt=\"Square\" />⬜</a>"
+                link = f"https://github.com/zalana28/zalana28/issues/new?title={issue_title}&body=Just+press+%27Submit+new+issue%27+without+changing+the+title+to+make+your+move!"
+                cell_content = f"<a href=\"{link}\"><img src=\"https://img.shields.io/badge/-%E2%AC%9C-161b22?style=for-the-badge\" alt=\"⬜\" /></a>"
             elif val == USER:
-                cell_content = "<h2>⚡</h2>"
+                cell_content = "<img src=\"https://img.shields.io/badge/-%E2%9A%A1-0ea5e9?style=for-the-badge\" alt=\"⚡\" />"
             else:
-                cell_content = "<h2>🤖</h2>"
-            md += f"    <td align=\"center\" width=\"70\" height=\"70\">{cell_content}</td>\n"
+                cell_content = "<img src=\"https://img.shields.io/badge/-%F0%9F%A4%96-c084fc?style=for-the-badge\" alt=\"🤖\" />"
+            md += f"    <td align=\"center\" width=\"90\" height=\"50\">{cell_content}</td>\n"
         md += "  </tr>\n"
     md += "</table>\n\n"
-    reset_link = "https://github.com/zalana28/zalana28/issues/new?title=game|reset&body=Just+press+%27Submit+new+issue%27+to+reset+the+game!"
-    md += f"[🔄 Reset Game]({reset_link})\n\n"
+    reset_link = "https://github.com/zalana28/zalana28/issues/new?title=game|reset&body=Just+press+%27Submit+new+issue%27+to+reset+the+board!"
+    md += f"<a href=\"{reset_link}\"><img src=\"https://img.shields.io/badge/%F0%9F%94%84-RESET%20BOARD-f43f5e?style=for-the-badge\" alt=\"Reset\" /></a>\n\n"
     md += "</div>\n"
     md += f"{BOARD_END}"
     return md
@@ -107,14 +100,13 @@ def parse_readme(file_path):
     board = [[EMPTY for _ in range(3)] for _ in range(3)]
     if BOARD_START in content and BOARD_END in content:
         section = content.split(BOARD_START)[1].split(BOARD_END)[0]
-        # Parse rows
         rows = section.split("<tr>")[1:]
         for r_idx, row in enumerate(rows[:3]):
             cells = row.split("<td")[1:]
             for c_idx, cell in enumerate(cells[:3]):
-                if "⚡" in cell:
+                if "0ea5e9" in cell or "⚡" in cell or "%E2%9A%A1" in cell:
                     board[r_idx][c_idx] = USER
-                elif "🤖" in cell:
+                elif "c084fc" in cell or "🤖" in cell or "%F0%9F%A4%96" in cell:
                     board[r_idx][c_idx] = AI
                 else:
                     board[r_idx][c_idx] = EMPTY
@@ -141,7 +133,7 @@ def main():
 
     if "game|reset" in issue_title:
         board = [[EMPTY for _ in range(3)] for _ in range(3)]
-        msg = "Game reset! Your turn (Player ⚡)"
+        msg = "🔄 Game reset! Your turn (Player ⚡)"
     elif "game|play|" in issue_title:
         coords = issue_title.split("game|play|")[1].strip()
         try:
@@ -154,7 +146,6 @@ def main():
                 elif winner == "TIE":
                     msg = "🤝 IT'S A TIE! Good match!"
                 else:
-                    # AI Move
                     ai_move = find_best_move(board)
                     if ai_move:
                         board[ai_move[0]][ai_move[1]] = AI
@@ -164,16 +155,16 @@ def main():
                         elif winner == "TIE":
                             msg = "🤝 IT'S A TIE! Good match!"
                         else:
-                            msg = f"AI moved to ({ai_move[0]},{ai_move[1]}). Your turn ⚡"
+                            msg = f"AI moved to ({ai_move[0]+1},{ai_move[1]+1}). Your turn ⚡"
                     else:
                         msg = "Game over."
             else:
-                msg = "Invalid move! Spot already taken."
+                msg = "Spot already taken! Choose an empty block ⬜"
         except Exception as e:
             msg = f"Error processing move: {e}"
     else:
         board = [[EMPTY for _ in range(3)] for _ in range(3)]
-        msg = "Ready to play! You are ⚡ (Player), AI is 🤖"
+        msg = "🎮 Ready to play! You are ⚡ (Player), AI is 🤖"
 
     new_game_md = render_board(board, msg)
     update_readme(readme_path, new_game_md)
