@@ -1,0 +1,161 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes glow {
+          0%, 100% {
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.8), 0 0 20px rgba(56, 189, 248, 0.4), 0 0 40px rgba(168, 85, 247, 0.3);
+            filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.6));
+          }
+          50% {
+            text-shadow: 0 0 20px rgba(56, 189, 248, 1), 0 0 35px rgba(168, 85, 247, 0.7), 0 0 60px rgba(56, 189, 248, 0.5);
+            filter: drop-shadow(0 0 25px rgba(168, 85, 247, 0.8));
+          }
+        }
+
+        @keyframes scanline {
+          0% { transform: translateY(-100%); }
+          100% { transform: translateY(1000%); }
+        }
+
+        @keyframes pulse-border {
+          0%, 100% { border-color: rgba(56, 189, 248, 0.4); box-shadow: 0 0 15px rgba(56, 189, 248, 0.15) inset; }
+          50% { border-color: rgba(168, 85, 247, 0.7); box-shadow: 0 0 25px rgba(168, 85, 247, 0.3) inset; }
+        }
+
+        @keyframes float-grid {
+          0% { background-position: 0 0; }
+          100% { background-position: 40px 40px; }
+        }
+
+        .cyber-container {
+          position: relative;
+          width: 796px;
+          height: 196px;
+          background: linear-gradient(135deg, #090d16 0%, #0d1117 50%, #161226 100%);
+          border-radius: 16px;
+          border: 1.5px solid rgba(56, 189, 248, 0.4);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+          overflow: hidden;
+          box-sizing: border-box;
+          animation: pulse-border 4s ease-in-out infinite;
+        }
+
+        .cyber-grid {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: 
+            linear-gradient(to right, rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+          background-size: 24px 24px;
+          animation: float-grid 20s linear infinite;
+          opacity: 0.7;
+          pointer-events: none;
+        }
+
+        .scan-beam {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 20px;
+          background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.15) 50%, transparent 100%);
+          animation: scanline 8s linear infinite;
+          pointer-events: none;
+        }
+
+        .tag-row {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 10px;
+          z-index: 2;
+        }
+
+        .cyber-tag {
+          font-size: 11px;
+          font-weight: 700;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          color: #38bdf8;
+          background: rgba(14, 165, 233, 0.12);
+          border: 1px solid rgba(56, 189, 248, 0.35);
+          padding: 3px 12px;
+          border-radius: 20px;
+        }
+
+        .cyber-title {
+          font-size: 38px;
+          font-weight: 900;
+          letter-spacing: 5px;
+          color: #ffffff;
+          margin: 0;
+          z-index: 2;
+          animation: glow 3s ease-in-out infinite;
+        }
+
+        .cyber-subtitle {
+          font-size: 13.5px;
+          font-weight: 500;
+          letter-spacing: 2.5px;
+          color: #94a3b8;
+          margin-top: 8px;
+          z-index: 2;
+          text-transform: uppercase;
+        }
+
+        .highlight {
+          color: #38bdf8;
+          font-weight: 700;
+        }
+
+        .highlight-purple {
+          color: #c084fc;
+          font-weight: 700;
+        }
+
+        .corner-decor {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          border: 2px solid #38bdf8;
+        }
+        .top-left { top: 6px; left: 6px; border-right: none; border-bottom: none; }
+        .top-right { top: 6px; right: 6px; border-left: none; border-bottom: none; }
+        .bottom-left { bottom: 6px; left: 6px; border-right: none; border-top: none; }
+        .bottom-right { bottom: 6px; right: 6px; border-left: none; border-top: none; }
+      </style>
+
+      <div class="cyber-container">
+        <div class="cyber-grid"></div>
+        <div class="scan-beam"></div>
+
+        <div class="corner-decor top-left"></div>
+        <div class="corner-decor top-right"></div>
+        <div class="corner-decor bottom-left"></div>
+        <div class="corner-decor bottom-right"></div>
+
+        <div class="tag-row">
+          <span class="cyber-tag">EVM Architect</span>
+          <span class="cyber-tag" style="color: #c084fc; border-color: rgba(192, 132, 252, 0.35); background: rgba(192, 132, 252, 0.12);">Web3 Native</span>
+          <span class="cyber-tag">Full-Stack</span>
+        </div>
+
+        <h1 class="cyber-title">⚡ ZALANA ⚡</h1>
+
+        <p class="cyber-subtitle">
+          <span class="highlight">Smart Contracts</span> • 
+          <span class="highlight-purple">Decentralized Apps</span> • 
+          <span class="highlight">TypeScript</span> • 
+          <span>Crypto Since 2018</span>
+        </p>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

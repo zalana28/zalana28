@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- 1. DYNAMIC WAVING CYBER BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=ZALANA%20%7C%20WEB3%20DEV&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web3%20%26%20Frontend%20Developer%20%E2%80%A2%20EVM%20%26%20Smart%20Contracts%20%E2%80%A2%20Crypto%20Native&descAlignY=62&descSize=16" width="100%" alt="Cyber Banner" />
+  <!-- 1. CUSTOM ANIMATED CYBERPUNK HUD BANNER (HOSTED IN REPO) -->
+  <img src="./assets/header.svg" width="100%" alt="Cyber Banner" />
 
   <!-- 2. ANIMATED AUDIO EQUALIZER / NOW PLAYING STATUS -->
   <p align="center">
