@@ -1,54 +1,130 @@
-# Hi, I'm zalana 👋
+<div align="center">
 
-I'm a self-taught Web3 developer from Indonesia. I have been active in crypto since 2018 through airdrops, testnets, retroactive campaigns, and Web3 ecosystem research, and I am now turning that hands-on ecosystem experience into practical blockchain development skills.
+  <!-- 1. CYBERPUNK HUD BANNER (ANIMATED GLOW) -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,40:0f172a,70:1e1b4b,100:0369a1&height=200&section=header&text=⚡%20ZALANA%20⚡&fontSize=48&fontColor=38bdf8&animation=twinkling&fontAlignY=42&desc=%3C%20WEB3%20ENGINEER%20%2F%2F%20FULL-STACK%20%2F%2F%20CRYPTO%20NATIVE%20%3E&descAlignY=68&descSize=15" width="100%" alt="Cyber HUD Header" />
 
-I enjoy learning in public, building small projects, and improving step by step with a focus on clean code, useful documentation, and beginner-friendly Web3 experiences.
+  <!-- 2. ANIMATED AUDIO EQUALIZER / NOW PLAYING STATUS -->
+  <p align="center">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2000&pause=1000&color=22D3EE&center=true&vCenter=true&width=550&lines=%E2%96%88%E2%96%93%E2%96%92%E2%96%91+STATUS%3A+Compiling+EVM+Smart+Contracts...+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%96%88%E2%96%93%E2%96%92%E2%96%91+NOW+BUILDING%3A+Next-Gen+DeFi+%26+dApp+Architectures+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%96%88%E2%96%93%E2%96%92%E2%96%91+MODE%3A+Learning+in+Public+%E2%80%A2+Crypto+Native+Since+2018+%E2%96%91%E2%96%92%E2%96%93%E2%96%88" alt="Now Playing Status" />
+    </a>
+  </p>
 
-## Current Focus
-
-- Building frontend applications with **React** and **TypeScript**
-- Learning smart contract development with **Solidity** on **EVM** chains
-- Exploring wallet connections and on-chain interactions with **Wagmi** and **viem**
-- Studying Web3 product flows, testnets, user onboarding, and ecosystem research
-- Improving my Git, GitHub, and technical writing habits through consistent practice
-
-## Featured Projects
-
-I am currently building and refining beginner-friendly Web3 projects. More public repositories will be added as I improve them.
-
-- **Web3 Wallet Connection Experiments** — Practice projects for connecting wallets, reading account data, and interacting with EVM networks.
-- **Solidity Learning Contracts** — Small smart contract exercises focused on fundamentals, security awareness, and readable code.
-- **Crypto Ecosystem Research Notes** — Notes and summaries from testnets, airdrops, retroactive campaigns, and ecosystem research.
-
-> For the latest work, please check my pinned repositories and recent GitHub activity.
-
-## Tech Stack
-
-**Currently focused on:**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
-![Wagmi](https://img.shields.io/badge/Wagmi-000000?style=flat&logo=ethereum&logoColor=white)
-![viem](https://img.shields.io/badge/viem-000000?style=flat&logo=ethereum&logoColor=white)
-![EVM](https://img.shields.io/badge/EVM-3C3C3D?style=flat&logo=ethereum&logoColor=white)
-
-**Also practicing:** HTML, CSS, JavaScript, Git, GitHub, and basic smart contract testing workflows.
-
-## Learning Journey
-
-My background started from participating in crypto communities and Web3 ecosystems rather than a traditional computer science path. Since 2018, I have learned by exploring testnets, trying new protocols, following project documentation, and researching how blockchain products are built.
-
-Today, my goal is to become a reliable Web3 developer who can contribute to frontend dApps, smart contract integrations, and user-friendly blockchain tools.
-
-## Contact Links
-
-- GitHub: [github.com/zalana28](https://github.com/zalana28)
-- X / Twitter: [x.com/zacxkzi](https://x.com/zacxkzi)
-- Instagram: [instagram.com/zacxkzi](https://instagram.com/zacxkzi)
-- YouTube: [youtube.com/@zacxkzi](https://youtube.com/@zacxkzi)
-- Email: [zacxdoor@gmail.com](mailto:zacxdoor@gmail.com)
+</div>
 
 ---
 
-Thanks for visiting my profile. I'm still learning, building, and improving every day.
+### 💻 SYSTEM SPECS (NEOFETCH)
+
+```zsh
+  zalana@web3-dev ~ % neofetch --zalana
+  --------------------------------------
+  OS          : Web3 EVM Environment x86_64
+  Host        : Decentralized Node v2026.1
+  Uptime      : Active since 2018 (6+ yrs crypto/ecosystem)
+  Core Skills : Solidity, React, TypeScript, Wagmi, Viem, Next.js
+  Shell       : zsh 5.9 (tokyo-night-cyber)
+  Terminal    : iTerm2 / Alacritty
+  Architecture: EVM Smart Contracts • Clean Architecture • dApps
+  Mission     : "Architecting high-frequency, secure, on-chain experiences."
+```
+
+---
+
+### 🍱 BENTO DASHBOARD // TECH & METRICS
+
+<table>
+  <tr>
+    <th width="50%" align="center">⚡ <b>CORE ARSENAL & SKILLS</b></th>
+    <th width="50%" align="center">📊 <b>ON-CHAIN / DEV METRICS</b></th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <br/>
+      <b>🌐 Frontend Engineering:</b><br/>
+      <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css,vite&theme=dark" /><br/><br/>
+      <b>⛓️ Web3 & Smart Contracts:</b><br/>
+      <img src="https://skillicons.dev/icons?i=solidity,ipfs&theme=dark" />
+      <img src="https://img.shields.io/badge/EVM-627EEA?style=flat-square&logo=ethereum&logoColor=white" height="48" />
+      <img src="https://img.shields.io/badge/Wagmi-000000?style=flat-square&logo=ethereum&logoColor=38bdf8" height="48" />
+      <img src="https://img.shields.io/badge/Viem-1E1E1E?style=flat-square&logo=v&logoColor=white" height="48" /><br/><br/>
+      <b>⚙️ Runtime, Tools & Cloud:</b><br/>
+      <img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode,docker,postman,linux,npm&theme=dark" />
+    </td>
+    <td valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=zalana28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d111700&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" width="100%" /><br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zalana28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d111700&title_color=38bdf8&text_color=94a3b8" width="100%" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🏆 ACHIEVEMENTS & CONTRIBUTIONS
+
+<div align="center">
+  <!-- Glowing Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=zalana28&theme=tokyonight&no-frame=true&no-bg=true&margin_w=4&row=1&column=7" width="100%" alt="Trophy Case" />
+
+  <br/>
+
+  <!-- Flame Streak Indicator -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zalana28&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" width="85%" alt="Streak Counter" />
+</div>
+
+---
+
+### 📈 ACTIVITY VELOCITY
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zalana28&theme=tokyo-night&bg_color=0d1117&color=38bdf8&line=a855f7&point=f43f5e&area=true&hide_border=true" width="100%" alt="Activity Velocity Graph" />
+</div>
+
+---
+
+### 🐍 ON-CHAIN CONTRIBUTION GRID (SNAKE EATER)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zalana28/zalana28/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Eater" />
+</div>
+
+---
+
+### 🛰️ TRANSMISSION & CLI CONNECT
+
+<div align="center">
+
+```bash
+# Connect with Zalana via terminal / socials:
+$ curl -s https://api.zalana.dev/contact
+  ├── Twitter / X : https://x.com/zacxkzi
+  ├── YouTube     : https://youtube.com/@zacxkzi
+  ├── Instagram   : https://instagram.com/zacxkzi
+  └── Email       : vanzaki28@gmail.com
+```
+
+<p align="center">
+  <a href="https://x.com/zacxkzi" target="_blank">
+    <img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://youtube.com/@zacxkzi" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/zacxkzi" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:vanzaki28@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<!-- Real-time Profile Views -->
+<img src="https://komarev.com/ghpvc/?username=zalana28&style=flat-square&color=22d3ee&label=TELEMETRY+VIEWS" alt="Telemetry Views" />
+
+<br/><br/>
+<sub>⚡ "Decentralize everything, engineer without limits." // Built with cutting-edge HUD aesthetics.</sub>
+
+</div>
