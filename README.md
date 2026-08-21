@@ -52,8 +52,8 @@
       <img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode,docker,postman,linux,npm&theme=dark" />
     </td>
     <td valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=zalana28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" width="100%" alt="GitHub Stats" /><br/>
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=zalana28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api?username=zalana28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" width="100%" alt="GitHub Stats" /><br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zalana28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>
@@ -80,10 +80,10 @@
 
 | Project / Repository | Focus & Highlights | Tech Stack | Quick Links |
 | :--- | :--- | :--- | :---: |
-| 🛡️ [**EVM MCP Auditor**](https://github.com/zalana28/evm-mcp-auditor) | Model Context Protocol (MCP) server for Claude - EVM smart contract static security auditing & multi-chain telemetry. | `TypeScript` `MCP` `Solidity` `EVM` | [GitHub ↗](https://github.com/zalana28/evm-mcp-auditor) |
-| ⚡ **Web3 Wallet Connection** | Eksperimen interaksi dApp, multi-wallet provider, dan pembacaan on-chain state. | `React` `TypeScript` `Wagmi` `Viem` | [View Repo ↗](https://github.com/zalana28) |
-| 📜 **Solidity Smart Contracts** | Kumpulan latihan smart contract EVM dengan penekanan pada security & readable code. | `Solidity` `EVM` `Hardhat` | [View Repo ↗](https://github.com/zalana28) |
-| 🧭 **Crypto Ecosystem Research** | Dokumentasi & riset mendalam seputar testnet, protokol DeFi, dan retroactive. | `Markdown` `Research` `Web3` | [View Repo ↗](https://github.com/zalana28) |
+| 🛡️ [**EVM MCP Auditor**](https://github.com/zalana28/evm-mcp-auditor) | Production-grade MCP server for Claude - EVM smart contract static security auditing, bytecode decompilation & multi-chain telemetry. | `TypeScript` `MCP` `Solidity` `EVM` | [GitHub ↗](https://github.com/zalana28/evm-mcp-auditor) |
+| 🧠 [**Continuum**](https://github.com/zalana28/continuum) | SOC triage agent with institutional memory - built for Sibyl Labs Hackathon (Sibyl Memory). | `Python` `AI Agents` `SOC` | [GitHub ↗](https://github.com/zalana28/continuum) |
+| 💱 [**Coco DEX**](https://github.com/zalana28/coco-dex) | Stablecoin-native DEX MVP on Arc Testnet. | `TypeScript` `DeFi` `Arc` `USDC` | [GitHub ↗](https://github.com/zalana28/coco-dex) |
+| 🧾 [**FlowBill Arc**](https://github.com/zalana28/flowbill-arc) | Gasless-ready USDC invoicing app for freelancers & global builders on Arc Testnet. | `TypeScript` `React` `USDC` `Arc` | [GitHub ↗](https://github.com/zalana28/flowbill-arc) |
 
 ---
 
