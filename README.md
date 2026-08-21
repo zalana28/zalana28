@@ -52,8 +52,8 @@
       <img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode,docker,postman,linux,npm&theme=dark" />
     </td>
     <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=zalana28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" width="100%" alt="GitHub Stats" /><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zalana28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Top Languages" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=zalana28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" width="100%" alt="GitHub Stats" /><br/>
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=zalana28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>
