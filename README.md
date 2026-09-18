@@ -52,51 +52,29 @@ On-chain since 2018.
 
 
 <!-- ==================== 6. SELECTED WORK (terminal log style) ==================== -->
+### `SELECTED WORK`
 
-### 📁 SELECTED_WORK — `cat ./repositories.log`
-
-```bash
-[01] evm-mcp-auditor ........ MCP server — EVM smart contract security
-                              auditing & bytecode analysis
-     > stack: TypeScript · MCP · Solidity · EVM
-     > repo : github.com/zalana28/evm-mcp-auditor
-
-[02] continuum ............. SOC triage agent with institutional memory
-                              Sibyl Labs Hackathon
-     > stack: Python · AI Agents · SOC
-     > repo : github.com/zalana28/continuum
-
-[03] coco-dex .............. Stablecoin-native DEX on Arc Testnet
-     > stack: TypeScript · DeFi · Arc · USDC
-     > repo : github.com/zalana28/coco-dex
-
-[04] flowbill-arc .......... Gasless USDC invoicing for freelancers
-                              on Arc Testnet
-     > stack: TypeScript · React · USDC · Arc
-     > repo : github.com/zalana28/flowbill-arc
-```
+| # | Repository | Description | Status |
+|:-:|:---|:---|:-:|
+| 01 | [**evm-mcp-auditor**](https://github.com/zalana28/evm-mcp-auditor) | MCP server — EVM smart contract security auditing & bytecode analysis | `LIVE` |
+| 02 | [**continuum**](https://github.com/zalana28/continuum) | SOC triage agent with institutional memory — Sibyl Labs Hackathon | `HACKATHON` |
+| 03 | [**coco-dex**](https://github.com/zalana28/coco-dex) | Stablecoin-native DEX on Arc Testnet | `LIVE` |
+| 04 | [**flowbill-arc**](https://github.com/zalana28/flowbill-arc) | Gasless USDC invoicing for freelancers on Arc Testnet | `LIVE` |
 
 <div align="center">
-
-<a href="https://github.com/zalana28/evm-mcp-auditor"><img height="20" src="https://img.shields.io/badge/01%20evm--mcp--auditor-LIVE-0d1117?style=flat-square&labelColor=161b22&logo=git&logoColor=2dd4bf" alt="evm-mcp-auditor" /></a>
-<a href="https://github.com/zalana28/continuum"><img height="20" src="https://img.shields.io/badge/02%20continuum-HACKATHON-0d1117?style=flat-square&labelColor=161b22&logo=git&logoColor=2dd4bf" alt="continuum" /></a>
-<a href="https://github.com/zalana28/coco-dex"><img height="20" src="https://img.shields.io/badge/03%20coco--dex-LIVE-0d1117?style=flat-square&labelColor=161b22&logo=git&logoColor=2dd4bf" alt="coco-dex" /></a>
-<a href="https://github.com/zalana28/flowbill-arc"><img height="20" src="https://img.shields.io/badge/04%20flowbill--arc-LIVE-0d1117?style=flat-square&labelColor=161b22&logo=git&logoColor=2dd4bf" alt="flowbill-arc" /></a>
-
-<br/><br/>
 
 <img src="./assets/divider.svg" width="80%" alt="" />
 
 </div>
 
-<!-- ==================== 7. CURRENTLY (system log status) ==================== -->
+<!-- ==================== 7. CURRENTLY ==================== -->
 
-### 📟 CURRENTLY — `tail -f /var/log/status.log`
+### `CURRENTLY`
 
 ```bash
-> BUILDING      : [isi di sini — project yang sedang dikerjakan]
-> LEARNING      : [isi di sini — hal yang sedang dipelajari]
-> ASK_ME_ABOUT  : EVM security, smart contract auditing, DeFi infra
+BUILDING      ·  [ project yang sedang dikerjakan ]
+LEARNING      ·  [ hal yang sedang dipelajari ]
+ASK ME ABOUT  ·  EVM security · smart contract auditing · DeFi infra
 ```
 
 <div align="center">
@@ -105,18 +83,18 @@ On-chain since 2018.
 
 <br/>
 
-<!-- ==================== 8. CONNECT (transmission channels) ==================== -->
+<!-- ==================== 8. CONNECT ==================== -->
 
-**📡 TRANSMISSION_CHANNELS** — `open --channels`
+### `CONNECT`
 
-<a href="https://x.com/zacxkzi"><img height="22" src="https://img.shields.io/badge/%3E%3E%20X%20%40zacxkzi-0d1117?style=flat-square&logo=x&logoColor=2dd4bf" alt="X" /></a>
-<a href="https://youtube.com/@zacxkzi"><img height="22" src="https://img.shields.io/badge/%3E%3E%20YouTube%20%40zacxkzi-0d1117?style=flat-square&logo=youtube&logoColor=2dd4bf" alt="YouTube" /></a>
-<a href="https://instagram.com/zacxkzi"><img height="22" src="https://img.shields.io/badge/%3E%3E%20Instagram%20%40zacxkzi-0d1117?style=flat-square&logo=instagram&logoColor=2dd4bf" alt="Instagram" /></a>
-<a href="mailto:vanzaki28@gmail.com"><img height="22" src="https://img.shields.io/badge/%3E%3E%20Email%20vanzaki28%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=2dd4bf" alt="Email" /></a>
+<a href="https://x.com/zacxkzi"><img height="22" src="https://img.shields.io/badge/X-0d1117?style=flat-square&logo=x&logoColor=2dd4bf" alt="X" /></a>
+<a href="https://youtube.com/@zacxkzi"><img height="22" src="https://img.shields.io/badge/YouTube-0d1117?style=flat-square&logo=youtube&logoColor=2dd4bf" alt="YouTube" /></a>
+<a href="https://instagram.com/zacxkzi"><img height="22" src="https://img.shields.io/badge/Instagram-0d1117?style=flat-square&logo=instagram&logoColor=2dd4bf" alt="Instagram" /></a>
+<a href="mailto:vanzaki28@gmail.com"><img height="22" src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=2dd4bf" alt="Email" /></a>
 
 <br/><br/>
 
-<!-- ==================== 9. FOOTER (separator + view counter) ==================== -->
+<!-- ==================== 9. FOOTER ==================== -->
 <code>:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</code>
 
 <br/>
