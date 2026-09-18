@@ -2,8 +2,8 @@
 
 <br/>
 
-<!-- Avatar : Animated dot-matrix portrait (TikTok style) -->
-<img src="./assets/avatar-animated.svg" width="260" alt="Zalana" />
+<!-- Avatar : Animated dot-matrix profile scan (full square) -->
+<img src="./assets/avatar-animated.svg" width="400" alt="Zalana" />
 
 <br/><br/>
 
