@@ -2,8 +2,8 @@
 
 <br/>
 
-<!-- Avatar : SVG wrapper for circular crop + teal ring -->
-<img src="./assets/avatar.svg" width="140" alt="Zalana" />
+<!-- Avatar : Animated dot-matrix portrait (TikTok style) -->
+<img src="./assets/avatar-animated.svg" width="260" alt="Zalana" />
 
 <br/><br/>
 
