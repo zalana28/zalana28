@@ -2,6 +2,11 @@
 
 <br/>
 
+<!-- Avatar : SVG wrapper for circular crop + teal ring -->
+<img src="./assets/avatar.svg" width="140" alt="Zalana" />
+
+<br/><br/>
+
 <!-- HERO : Animated profile card — live GitHub data, rendered on request -->
 <img src="https://www.gitskins.com/api/section/hero?username=zalana28&theme=github-dark&style=aura" alt="Zalana — Web3 / EVM Engineer" width="860" />
 
