@@ -2,8 +2,8 @@
 
 <br/>
 
-<!-- Avatar : Animated dot-matrix profile scan (optimized) -->
-<img src="./assets/avatar_v2.svg" width="400" alt="Zalana" />
+<!-- HERO : Full-width animated dot banner -->
+<img src="./assets/avatar_banner.svg" width="860" alt="Zalana" />
 
 <br/><br/>
 
