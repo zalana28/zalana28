@@ -2,10 +2,10 @@
 
 <br/>
 
-<!-- HERO : Animated typing — the focal point -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2600&pause=1400&color=2DD4BF&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=45&lines=%24+whoami+%E2%86%92+zalana;%24+role+%E2%86%92+web3+%2F+evm+engineer;%24+focus+%E2%86%92+secure+%C2%B7+clear+%C2%B7+performant+dapps;%24+on-chain+since+%E2%86%92+2018" alt="Zalana — Web3 / EVM Engineer" /></a>
+<!-- HERO : Animated profile card — live GitHub data, rendered on request -->
+<img src="https://www.gitskins.com/api/section/hero?username=zalana28&theme=github-dark&style=aura" alt="Zalana — Web3 / EVM Engineer" width="860" />
 
-<br/><br/>
+<br/>
 
 <!-- Bio : terminal prompt -->
 ```bash
@@ -36,8 +36,8 @@ On-chain since 2018.
 
 <br/>
 
-<!-- One living data element : contribution snake -->
-<img src="https://raw.githubusercontent.com/zalana28/zalana28/output/github-contribution-grid-snake-dark.svg" width="90%" alt="Contribution snake" />
+<!-- One living data element : animated contribution heatmap with cinematic scan -->
+<img src="https://www.gitskins.com/api/section/heatmap?username=zalana28&theme=github-dark&style=aura" alt="Contribution activity" width="860" />
 
 <br/><br/>
 
