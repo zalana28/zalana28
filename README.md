@@ -2,8 +2,8 @@
 
 <br/>
 
-<!-- Avatar : Animated dot-matrix profile scan (full square) -->
-<img src="./assets/avatar-animated.svg" width="400" alt="Zalana" />
+<!-- Avatar : Animated dot-matrix profile scan (optimized) -->
+<img src="./assets/avatar_v2.svg" width="400" alt="Zalana" />
 
 <br/><br/>
 
