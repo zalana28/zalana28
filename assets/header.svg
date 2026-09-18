@@ -1,144 +1,54 @@
-<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 180" width="800" height="180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="50%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#161226" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e13" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
 
-    <!-- Glowing Text Gradient -->
-    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#c084fc" />
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e6edf3" />
+      <stop offset="100%" stop-color="#9aa7b4" />
     </linearGradient>
-
-    <!-- Scan Beam Gradient -->
-    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
-    </linearGradient>
-
-    <!-- Grid Pattern -->
-    <pattern id="cyberGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1" />
-    </pattern>
-
-    <!-- Neon Glow Filter -->
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur1" />
-      <feGaussianBlur stdDeviation="6" result="blur2" />
-      <feMerge>
-        <feMergeNode in="blur2" />
-        <feMergeNode in="blur1" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
 
     <style>
-      @keyframes pulseGlow {
-        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.6)); }
-        50% { opacity: 1; filter: drop-shadow(0 0 16px rgba(168, 85, 247, 0.9)); }
+      .name {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        font-weight: 400;
+        font-size: 44px;
+        letter-spacing: 14px;
+        fill: url(#nameGrad);
       }
-
-      @keyframes scanMotion {
-        0% { transform: translateY(0px); }
-        100% { transform: translateY(200px); }
-      }
-
-      @keyframes borderPulse {
-        0%, 100% { stroke: #38bdf8; stroke-opacity: 0.4; }
-        50% { stroke: #c084fc; stroke-opacity: 0.8; }
-      }
-
-      .main-title {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-weight: 900;
-        font-size: 40px;
-        letter-spacing: 6px;
-        fill: #ffffff;
-        animation: pulseGlow 3s ease-in-out infinite;
-      }
-
-      .sub-title {
-        font-family: 'SF Mono', 'Fira Code', Consolas, Menlo, monospace;
-        font-weight: 600;
-        font-size: 13.5px;
-        letter-spacing: 3px;
-        fill: #94a3b8;
-      }
-
-      .tag-text {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        font-weight: 700;
+      .role {
+        font-family: 'SF Mono', 'Fira Code', Menlo, monospace;
+        font-weight: 400;
         font-size: 11px;
-        letter-spacing: 1.5px;
+        letter-spacing: 5px;
+        fill: #6e7681;
       }
-
-      .scan-beam {
-        animation: scanMotion 5s linear infinite;
-      }
-
-      .card-border {
-        animation: borderPulse 4s ease-in-out infinite;
-      }
+      .rule { stroke: #21262d; stroke-width: 1; }
+      .accent { stroke: #58a6ff; stroke-width: 1; stroke-opacity: 0.55; }
     </style>
   </defs>
 
-  <!-- Container Box -->
-  <rect x="2" y="2" width="796" height="196" rx="16" fill="url(#bgGrad)" />
-  <rect x="2" y="2" width="796" height="196" rx="16" fill="url(#cyberGrid)" />
+  <!-- Background -->
+  <rect width="800" height="180" fill="url(#bg)" />
 
-  <!-- Scanning Laser Line -->
-  <g class="scan-beam">
-    <rect x="2" y="0" width="796" height="20" fill="url(#scanGrad)" />
-  </g>
+  <!-- Hairline frame -->
+  <rect x="24" y="24" width="752" height="132" fill="none" class="rule" />
 
-  <!-- Animated Border -->
-  <rect class="card-border" x="2" y="2" width="796" height="196" rx="16" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+  <!-- Small accent ticks on frame corners -->
+  <path d="M 24 24 h 18" class="accent" />
+  <path d="M 24 24 v 18" class="accent" />
+  <path d="M 776 156 h -18" class="accent" />
+  <path d="M 776 156 v -18" class="accent" />
 
-  <!-- Corner Tech Accents -->
-  <path d="M 12 24 L 12 12 L 24 12" stroke="#38bdf8" stroke-width="2.5" fill="none" />
-  <path d="M 788 24 L 788 12 L 776 12" stroke="#38bdf8" stroke-width="2.5" fill="none" />
-  <path d="M 12 176 L 12 188 L 24 188" stroke="#38bdf8" stroke-width="2.5" fill="none" />
-  <path d="M 788 176 L 788 188 L 776 188" stroke="#38bdf8" stroke-width="2.5" fill="none" />
+  <!-- Name -->
+  <text class="name" x="414" y="88" text-anchor="middle">ZALANA</text>
 
-  <!-- Pills / Badges (centered group, total width = 400) -->
-  <g transform="translate(200, 30)">
-    <!-- Pill 1: EVM ARCHITECT -->
-    <rect x="0" y="0" width="130" height="22" rx="11" fill="#0ea5e9" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
-    <text class="tag-text" x="65" y="15" text-anchor="middle" fill="#38bdf8">EVM ARCHITECT</text>
+  <!-- Divider -->
+  <line x1="330" y1="112" x2="470" y2="112" class="rule" />
+  <line x1="386" y1="112" x2="414" y2="112" class="accent" />
 
-    <!-- Pill 2: WEB3 NATIVE -->
-    <rect x="140" y="0" width="120" height="22" rx="11" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4" />
-    <text class="tag-text" x="200" y="15" text-anchor="middle" fill="#c084fc">WEB3 NATIVE</text>
-
-    <!-- Pill 3: FULL-STACK -->
-    <rect x="270" y="0" width="130" height="22" rx="11" fill="#0ea5e9" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
-    <text class="tag-text" x="335" y="15" text-anchor="middle" fill="#38bdf8">FULL-STACK</text>
-  </g>
-
-  <!-- Main Title with Glowing Lightning -->
-  <g transform="translate(400, 108)">
-    <g filter="url(#neonGlow)">
-      <path d="M -145 2 L -132 -14 L -139 -2 L -128 -2 L -141 14 L -136 2 Z" fill="#fbbf24" />
-      <path d="M 145 2 L 132 -14 L 139 -2 L 128 -2 L 141 14 L 136 2 Z" fill="#fbbf24" transform="scale(-1, 1)" />
-    </g>
-    <text class="main-title" x="0" y="0" text-anchor="middle">ZALANA</text>
-  </g>
-
-  <!-- Subtitle Tagline -->
-  <g transform="translate(400, 148)">
-    <text class="sub-title" x="0" y="0" text-anchor="middle">
-      <tspan fill="#38bdf8">SMART CONTRACTS</tspan>
-      <tspan fill="#64748b"> • </tspan>
-      <tspan fill="#c084fc">DECENTRALIZED APPS</tspan>
-      <tspan fill="#64748b"> • </tspan>
-      <tspan fill="#38bdf8">TYPESCRIPT</tspan>
-      <tspan fill="#64748b"> • </tspan>
-      <tspan fill="#94a3b8">SINCE 2018</tspan>
-    </text>
-  </g>
+  <!-- Role -->
+  <text class="role" x="400" y="136" text-anchor="middle">EVM ARCHITECT · WEB3 · SINCE 2018</text>
 </svg>
