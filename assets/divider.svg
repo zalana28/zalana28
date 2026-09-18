@@ -1,0 +1,24 @@
+<svg fill="none" viewBox="0 0 800 24" width="800" height="24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0" />
+      <stop offset="50%" stop-color="#2dd4bf" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0" />
+    </linearGradient>
+    <style>
+      @keyframes drift {
+        0%   { transform: translateX(0); opacity: 0; }
+        15%  { opacity: 0.9; }
+        85%  { opacity: 0.9; }
+        100% { transform: translateX(640px); opacity: 0; }
+      }
+      .pulse { animation: drift 6s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Hairline -->
+  <line x1="0" y1="12" x2="800" y2="12" stroke="url(#line)" stroke-width="1" />
+
+  <!-- Travelling pulse -->
+  <rect class="pulse" x="80" y="11" width="80" height="2" rx="1" fill="#2dd4bf" fill-opacity="0.6" />
+</svg>
